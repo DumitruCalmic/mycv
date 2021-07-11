@@ -1,21 +1,18 @@
 /*css stylesheet*/
 body {
-    margin: 0;
+    
 }
 
-.section {
-    background-image: url('http://orig06.deviantart.net/c024/f/2010/147/1/1/assassins_creed_2_wallpaper_by_motopaddy.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+.container-fluid {
+  background-image: url('http://orig06.deviantart.net/c024/f/2010/147/1/1/assassins_creed_2_wallpaper_by_motopaddy.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.border {
     border-radius: 10px;
-    border: 2px solid red;
-    margin: 10px;
-    padding: 20px;
-    overflow: auto;
 }
 
-/*text style*/
 .text {
     font-family: 'Bellefair', serif;
     font-size: 20px;
@@ -29,74 +26,6 @@ body {
     margin: 10px;
 }
 
-blockquote {
-    color:#8b0000;
-    font-size: 22px;
-    font-family: 'Bellefair', serif;
-    margin: 10px;
+.table-bordered {
+    border: 3px solid gray;
 }
-
-/*images style*/
-#gallery img {
-    border: 5px solid gray;
-    margin-left: 10px;
-}
-
-.avatar-image {
-    margin: 10px;
-}
-
-.float-left {
-    float: left;
-}
-
-/*table-style*/
-#experience table {
-    border-collapse: collapse;
-}
-
-#experience td, #experience th {
-    border: 2px solid gray;
-}
-
-#experience thead th {
-    background-color: lightgrey;
-}
-
-/*contact-form style*/
-input[type=text], input[type=number], input[type=date], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid gray;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-  
-textarea {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid gray;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-button[type=submit] {
-    width: 100%;
-    background-color: red;
-    color: white;
-    font-size: 20px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-/*footer style*/
-  footer {
-    text-align: center;
-  }
